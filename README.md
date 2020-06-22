@@ -28,14 +28,18 @@ With this credentials, you can will access to the search area.
 The main area have an HTML form to filter the search.
 You can complete any field of the form to make a specific request.
 
+
 ![img_form](src/main/resources/images/docs/form.JPG)
+
 
 #### 3. Response Area
 The form send a request to the controller to find an ATM on the list.
 If the service find ones, will return a list with the response and show it them in a HTML table.
 If the service can't find any result, will return a message.
 
+
 ![img_response](src/main/resources/images/docs/result.JPG)
+
 
 ### Technology
 To build this app, the following tools were used:
