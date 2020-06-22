@@ -24,7 +24,6 @@ public class AtmController {
 
     @RequestMapping(value = {"/index", "", "/"}, method = RequestMethod.GET)
     public String index() {
-
         return "index";
     }
 
@@ -67,7 +66,7 @@ public class AtmController {
     }
 
 
-    private Atm getMock(){
+    private Atm getATMMock(){
 
         Atm atm = new Atm();
         Address address = new Address();
@@ -88,6 +87,4 @@ public class AtmController {
 
         return atm;
     }
-
-
 }
